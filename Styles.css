@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+ul li a.active {
+    background-color: #EA2127FF; 
+}
+
+ul img {
+    position: absolute;
+    left: 10px;
+    width: 88px;
+    padding: 10px;
+}
+
+
+ul li a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #333333;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
